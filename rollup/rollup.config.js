@@ -15,7 +15,7 @@ export default {
         css: { cssnext }
       }
     }),
-    nodeResolve({ jsnext: true }),
+    nodeResolve({ jsnext: true, browser: true }),
     commonjs(),
     buble()
   ],
